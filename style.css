@@ -142,7 +142,8 @@ header {
 
 .quick-feature-content h2,
 .our-feature-content h2,
-.some-facts-content h2 {
+.some-facts-content h2,
+.our-sponsors-content h2 {
   font-size: 3.5rem;
   max-width: 480px;
   color: var(--dark-text);
@@ -150,7 +151,8 @@ header {
 }
 
 .quick-feature-content p,
-.some-facts-content p {
+.some-facts-content p,
+.our-sponsors-content p {
   max-width: 540px;
   margin: 10px 0 30px;
 }
@@ -237,3 +239,13 @@ color: var(--text);
   font-weight: 500;
 }
 /* Some Facts section end */
+
+/* Our Sponsors section start */
+.our-sponsors-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 50px 20px 20px;
+}
+/* Our Sponsors section end */
