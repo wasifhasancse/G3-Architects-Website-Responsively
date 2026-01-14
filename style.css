@@ -68,7 +68,7 @@ a {
   text-decoration: none;
 }
 
-header {
+header, footer {
   background: rgba(255, 144, 14, 0.1);
 }
 
@@ -247,5 +247,14 @@ color: var(--text);
   justify-content: space-between;
   gap: 80px;
   padding: 50px 20px 20px;
+  filter: grayscale(100%);
 }
 /* Our Sponsors section end */
+
+/* footer section start */
+.footer{
+  text-align: center;
+  padding: 30px;
+  user-select: none;
+}
+/* footer section end */
