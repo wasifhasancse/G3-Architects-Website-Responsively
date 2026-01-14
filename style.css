@@ -243,9 +243,11 @@ footer {
 
 /* Our Sponsors section start */
 .our-sponsors-item {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 80px;
   padding: 50px 20px 20px;
   filter: grayscale(100%);
@@ -274,14 +276,14 @@ footer {
     gap: 20px;
   }
 
-  .hero{
+  .hero {
     display: flex;
     flex-direction: column-reverse;
   }
 
   .hero .hero-image img {
     margin: 0px 0px 10px;
-}
+  }
 
   .section {
     margin: 30px auto 0px;
@@ -291,11 +293,12 @@ footer {
   .our-feature-image a {
     margin: -130px 0px 0px 60px;
     padding: 20px;
-}
+  }
 
-.some-facts-card-container {
+  .some-facts-card-container,
+  .our-sponsors-item {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 15px;
     margin-top: 20px;
-}
+  }
 }
