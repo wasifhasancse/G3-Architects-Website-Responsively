@@ -287,4 +287,9 @@ footer {
     margin: 30px auto 0px;
     padding: 10px;
   }
+
+  .our-feature-image a {
+    margin: -130px 0px 0px 60px;
+    padding: 20px;
+}
 }
