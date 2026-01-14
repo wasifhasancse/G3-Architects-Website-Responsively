@@ -8,8 +8,8 @@
 :root {
   --primary: #ff900e;
   --dark-text: #131313;
-  --white: #fff;
   --text: #424242;
+  --white: #fff;
 }
 
 /* common class start  */
@@ -141,14 +141,16 @@ header {
 }
 
 .quick-feature-content h2,
-.our-feature-content h2 {
+.our-feature-content h2,
+.some-facts-content h2 {
   font-size: 3.5rem;
   max-width: 480px;
   color: var(--dark-text);
   text-transform: capitalize;
 }
 
-.quick-feature-content p {
+.quick-feature-content p,
+.some-facts-content p {
   max-width: 540px;
   margin: 10px 0 30px;
 }
@@ -156,7 +158,7 @@ header {
 
 /* our-feature-content style start  */
 
-.our-feature-content{
+.our-feature-content {
   max-width: 590px;
 }
 .our-feature-title {
@@ -168,23 +170,23 @@ header {
   margin: 30px 0;
 }
 
-.our-feature-cards-container{
+.our-feature-cards-container {
   gap: 20px;
 }
 
-.our-feature-card{
+.our-feature-card {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
-.our-feature-card p{
+.our-feature-card p {
   font-size: 1rem;
   line-height: 24px;
   padding-top: 10px;
 }
 
-.our-feature-image a{
+.our-feature-image a {
   display: inline-block;
   margin: -130px 0px 0px -50px;
   color: var(--white);
@@ -197,8 +199,40 @@ header {
   border-radius: 8px;
   border: 2px solid var(--primary);
 }
-.our-feature-image a span{
+.our-feature-image a span {
   font-size: 3rem;
   font-weight: 800;
 }
 /* our-feature-content style end */
+
+/* Some Facts section start */
+.some-facts-card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+}
+
+.some-facts-card-container .some-facts-card{
+  padding: 40px 30px 50px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+}
+
+/* .some-facts-card-container .some-facts-card img{
+  width: 100%;
+  height: 100%;
+} */
+
+.some-facts-card-container .some-facts-card h3{
+font-size: 3.5rem;
+padding: 10px 0px;
+color: var(--text);
+}
+
+.some-facts-card-container .some-facts-card p{
+  color: var(--text);
+  opacity: .8;
+  font-weight: 500;
+}
+/* Some Facts section end */
