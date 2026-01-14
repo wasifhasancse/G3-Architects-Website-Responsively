@@ -88,7 +88,6 @@ header, footer {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-right: 50px;
 }
 
 .nav .nav-link a {
@@ -99,7 +98,7 @@ header, footer {
 /* nav section style end */
 
 /* hero section style start  */
-.hero .hero-info {
+.hero .hero-info, .nav-items {
   gap: 30px;
   text-align: center;
 }
@@ -258,3 +257,15 @@ color: var(--text);
   user-select: none;
 }
 /* footer section end */
+
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .nav, .nav-items{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
