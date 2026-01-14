@@ -120,7 +120,7 @@ header {
 /* hero section style end */
 
 /* quick-feature style start  */
-.quick-feature{
+.quick-feature, .our-feature{
   display: flex;
   align-items: center;
   gap: 80px;
@@ -132,13 +132,13 @@ header {
   gap: 20px;
 }
 
-.quick-feature .quick-feature-images img{
+.quick-feature .quick-feature-images img, .our-feature-image img{
   width: 100%;
   height: 100%;
   border-radius: 8px;
 }
 
-.quick-feature-content h1{
+.quick-feature-content h2{
   font-size: 3.5rem;
   max-width: 480px;
   color: var(--dark-text);
