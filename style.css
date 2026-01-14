@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+:root {
+  --primary: #ff900e;
+  --dark-text: #131313;
+  --white: #fff;
+  --text: #424242;
+}
+
+/* common class start  */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 100px auto 0px;
+  padding: 30px;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.primary-btn {
+  padding: 10px 30px;
+  color: var(--white);
+  background: var(--primary);
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  text-align: center;
+  text-transform: capitalize;
+}
+/* common class end */
+a {
+  text-decoration: none;
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* nav section style start */
+.nav {
+  padding: 30px 20px;
+}
+
+.nav .logo a {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--dark-text);
+}
+
+.nav .logo span {
+  color: var(--primary);
+}
+
+.nav .nav-link {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-right: 50px;
+}
+
+.nav .nav-link a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--text);
+}
+/* nav section style end */
+
+/* hero section style start  */
+.hero .hero-info {
+  gap: 30px;
+  text-align: center;
+}
+
+.hero .hero-info h1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.hero .hero-info p {
+  color: var(--text);
+  max-width: 900px;
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.hero .hero-image img {
+  margin-top: 50px;
+  width: 100%;
+}
+/* hero section style end */
